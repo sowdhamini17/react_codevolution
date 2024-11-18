@@ -3,8 +3,9 @@
 // import Nojsx from "./Components/Nojsx";
 // import Props from "./Components/Props";
 // import State from "./Components/State";
-import './App.css';
-import Conditionalrendering from './Components/Conditionalrendering';
+// import './App.css';
+// import Conditionalrendering from './Components/Conditionalrendering';
+import Listrendering from './Components/Listrendering';
 // import Methodsasprops1 from "./Components/Methodsasprops1";
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       <Props name="ROCK"/> */}
       {/* <State/> */}
       {/* <Methodsasprops1/> */}
-      <Conditionalrendering  isLoggedIn={true}/>
+      {/* <Conditionalrendering  isLoggedIn={true}/> */}
+      <Listrendering/>
     </div>
   );
 }
