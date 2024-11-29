@@ -18,7 +18,7 @@ const Listrendering=()=>{
                 name:"bruce",
                 role:"jde"}
     ]
-    const personList=persons.map(person=><Lr1 person={person}/>)
+    const personList=persons.map(person=><Lr1 key={person.id} person={person}/>)
     return(
         <div>
         {arrList}
