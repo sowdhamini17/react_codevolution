@@ -12,14 +12,19 @@
 // import "./Components/error.css";
 
 // import styles from './Components/appstyles.module.css'; // For CSS modules
-import Cntroledcomp from './Components/Cntroledcomp';
+// import Cntroledcomp from './Components/Cntroledcomp';
+// import Fragments from './Components/Fragment';
+// import Memoparent from './Components/Memoparent';
+// import Ref from './Components/Ref';
+import Ref2 from './Components/Ref2';
+// import Parent from './Components/Parent';
 
 
 
 function App() {
   return (
     <div className="App">
-      hello world
+      
       {/* <Functional_comp />
       <Nojsx/>
       <Props name="DIANA"/>
@@ -33,7 +38,12 @@ function App() {
       {/* <Inlinecss/> */}
       {/* <h1 className='error'>error</h1>
       <h1 className={styles.success}>success</h1> */}
-      <Cntroledcomp/>
+      {/* <Cntroledcomp/> */}
+      {/* <Fragments /> */}
+      {/* <Parent/> */}
+      {/* <Memoparent/> */}
+      {/* <Ref/> */}
+      <Ref2/>
     </div>
   );
 }
