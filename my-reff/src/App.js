@@ -16,8 +16,9 @@
 // import Fragments from './Components/Fragment';
 // import Memoparent from './Components/Memoparent';
 // import Ref from './Components/Ref';
-import Ref2 from './Components/Ref2';
+// import Ref2 from './Components/Ref2';
 // import Parent from './Components/Parent';
+import Updated from "./Components/Hoc";
 
 
 
@@ -43,7 +44,8 @@ function App() {
       {/* <Parent/> */}
       {/* <Memoparent/> */}
       {/* <Ref/> */}
-      <Ref2/>
+      {/* <Ref2/> */}
+      <Updated />
     </div>
   );
 }
